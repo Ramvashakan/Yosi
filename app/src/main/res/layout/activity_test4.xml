@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#6dddfc"
+    android:orientation="vertical"
+    tools:context=".Test4Activity">
+
+
+    <TextView
+        android:id="@+id/counttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-148dp"
+        android:layout_marginLeft="-148dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/question"
+        android:layout_toRightOf="@+id/question"
+        android:freezesText="true"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="150dp"
+        android:freezesText="true"
+        android:padding="5dp"
+        android:text="Question"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/grp_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        android:layout_alignTop="@+id/question"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="146dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="Option1"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:freezesText="true"
+            android:text="Option2"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:freezesText="true"
+            android:text="Option3"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Option4"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bn_nxt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grp_option"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/grp_option"
+        android:background="@drawable/bt_bg"
+        android:textColor="#fff"
+        android:freezesText="true"
+        android:text="next" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:freezesText="true"
+        android:text="Score: "
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "388586918559",
+    "firebase_url": "https://yosi-faf95.firebaseio.com",
+    "project_id": "yosi-faf95",
+    "storage_bucket": "yosi-faf95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388586918559:android:855bbbf9423314157a48aa",
+        "android_client_info": {
+          "package_name": "com.valaithalam.yosi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388586918559-l67cq4gn4iiofp4227cr7al43vjlj18c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valaithalam.yosi",
+            "certificate_hash": "8496a23c50c9d81241da325ed4648a88694d42f5"
+          }
+        },
+        {
+          "client_id": "388586918559-2r883aqvtapd3t3jn8tl17cjj95gj9kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATYSk14ZmhUGwvKlFJvjg2g2l2p0NJacI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388586918559-2r883aqvtapd3t3jn8tl17cjj95gj9kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

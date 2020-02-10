@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical|horizontal"
+    android:layout_height="match_parent"
+    android:background="#6dddfc"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="17dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome to the Aptitude Test"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_marginTop="25dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Placement related aptitude questions are given bellow."
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bn_practice"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/bt_bg"
+            android:text="Practice"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/bn_test"
+            android:textColor="#fff"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_bg"
+            android:layout_marginTop="80dp"
+            android:text="Test"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>

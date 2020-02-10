@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yosi</string>
+
+    <string name="question">The sum of ages of 5 children born at the intervals of 3 years each is 50 years.
+        What is the age of the youngest child? </string>
+
+</resources>

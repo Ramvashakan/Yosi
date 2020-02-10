@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#6dddfc"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Practise the test every day"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bn_test1"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bt_bg"
+        android:freezesText="true"
+        android:text="Test1" />
+
+
+    <Button
+        android:id="@+id/bn_test2"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bt_bg"
+        android:freezesText="true"
+        android:text="Test2" />
+
+    <Button
+        android:id="@+id/bn_test3"
+        android:layout_width="200dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bt_bg"
+        android:freezesText="true"
+        android:text="Test3" />
+
+    <Button
+        android:id="@+id/bn_test4"
+        android:layout_width="200dp"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bt_bg"
+        android:freezesText="true"
+        android:text="Test4" />
+
+</LinearLayout>
